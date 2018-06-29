@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clickable="true">
+
+    <View
+        android:id="@+id/view_small_circle"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circular_white_three" />
+
+    <ImageView
+        android:id="@+id/iv_voice_speech"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="7dp"
+        android:scaleType="centerInside"
+        android:background="@drawable/circular_white"
+        android:src="@drawable/ic_mic_green_24dp"/>
+
+        <TextView
+            android:id="@+id/tv_voice_speech"
+            android:layout_below="@id/iv_voice_speech"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.1"
+            android:gravity="center"
+            android:lineSpacingExtra="2sp"
+            android:padding="24dp"
+            android:text="Please speak"
+            android:ellipsize="end"
+            android:maxLength="100"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tv_try_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Try again"
+        android:textColor="@color/black"
+        android:padding="16dp"/>
+
+</RelativeLayout>

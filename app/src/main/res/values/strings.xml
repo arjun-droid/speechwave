@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">speechwaveanimation</string>
+    <string name="listening">Listening...</string>
+    <string name="voice_no_match">No match found. Please try again.</string>
+    <string name="voice_timeout">Voice matching timeout. Please try again.</string>
+    <string name="permission_denied">Permission denied permanently. Please enable permission from settings.</string>
+    <string name="no_items_found">No Items Found</string>
+    <string name="no_item_found_try_again">No Items Found. Please try again.</string>
+    <string name="error_message">Something went wrong. Please try again</string>
+    <string name="check_network_toast_msg">Please check your network connection</string>
+</resources>
