@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements RecognitionListen
     }
 
     private void startSpeech() {
-
             new Handler().post(new Runnable() {
                 @Override
                 public void run() {
@@ -222,6 +221,7 @@ public class MainActivity extends AppCompatActivity implements RecognitionListen
         });
     }
 
+    //kill recognizer on destroy
     @Override
     public void onDestroy() {
         super.onDestroy();
